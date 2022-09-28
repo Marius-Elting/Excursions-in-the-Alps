@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Poppins-reg;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url("../fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("../img/Header\ Background.avif");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .logo {
+    line-height: 8vh;
+    font-family: Cinzel;
+    font-size: 2rem;
+    padding-left: 2vw;
+    /* padding-bottom: 0.5rem; */
+    background-color: white;
+    color: #999;
+}
+
+header section {
+    text-align: center;
+    height: 20vh;
+    width: 15vw;
+    margin: 35vh auto 0 auto;
+    font-family: Cinzel;
+    font-size: 2rem;
+    color: white
+}
+
+main section {
+    padding: 8vh 5vw 0 5vw;
+
+}
+
+.sec1 {
+    text-align: center;
+    font-family: Poppins-reg;
+}
+
+.sec1 h1 {
+    margin: 1rem 0 2rem 0;
+    font-family: Cinzel;
+}
+
+.sec2 {
+    text-align: center;
+}
+
+.sec2 img {
+    margin: 6rem 2.135rem 0rem 2.135rem;
+    width: 31.25rem;
+}
+
+.sec3 ul li {
+    list-style: none;
+    font-family: Poppins-reg;
+    margin: 0.5rem 0px 1rem 0px;
+    word-spacing: 1px;
+}
+
+.sec3 h2 {
+    text-align: center;
+    font-family: Cinzel;
+    margin-bottom: 3rem;
+}
+
+.so::after {
+    content: "SOLD OUT";
+    color: red;
+}
+
+.av::after {
+    content: "AVAILABLE";
+    color: green;
+}
+
+.o4a::after {
+    content: "ONLY 4 SPOT AVAILABLE";
+    color: red;
+}
+
+
+footer {
+    text-align: center;
+    line-height: 6vh;
+    border-top: 2px solid #ccc;
+    margin-top: 5vh;
+}
+
+footer p {
+    text-decoration: none;
+    font-family: Cinzel;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+footer section {
+    height: 3.5vh;
+}
+
+footer section img {
+    height: 100%;
+    filter: grayscale(100%);
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+footer section img:hover {
+    filter: grayscale(0%)
+}
