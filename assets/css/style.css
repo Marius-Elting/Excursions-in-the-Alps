@@ -35,11 +35,16 @@ header .logo {
 header section {
     text-align: center;
     height: 20vh;
-    width: 15vw;
+    width: 9em;
     margin: 35vh auto 0 auto;
     font-family: Cinzel;
-    font-size: 2rem;
-    color: white
+    font-size: 2em;
+    color: white;
+}
+
+header section h1 {
+    text-align: center;
+
 }
 
 main section {
